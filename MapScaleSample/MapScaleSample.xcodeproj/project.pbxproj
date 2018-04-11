@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463B0E29998A0B35C85CC9DA /* Pods_MapScaleSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA4E8835FDA4E248BB0FE64 /* Pods_MapScaleSample.framework */; };
+		D45A06C3207DE85800BB2AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A06C2207DE85800BB2AA0 /* AppDelegate.swift */; };
+		D45A06C8207DE85800BB2AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45A06C6207DE85800BB2AA0 /* Main.storyboard */; };
+		D45A06CA207DE85900BB2AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45A06C9207DE85900BB2AA0 /* Assets.xcassets */; };
+		D45A06CD207DE85900BB2AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45A06CB207DE85900BB2AA0 /* LaunchScreen.storyboard */; };
+		D45A06D8207DE85900BB2AA0 /* MapScaleSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A06D7207DE85900BB2AA0 /* MapScaleSampleTests.swift */; };
+		D45A06E3207DE85900BB2AA0 /* MapScaleSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A06E2207DE85900BB2AA0 /* MapScaleSampleUITests.swift */; };
+		D45A06F2207DE97E00BB2AA0 /* MapScaleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A06F0207DE97E00BB2AA0 /* MapScaleListViewController.swift */; };
+		D45A06F3207DE97E00BB2AA0 /* MapScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A06F1207DE97E00BB2AA0 /* MapScaleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45A06D4207DE85900BB2AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45A06B7207DE85800BB2AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45A06BE207DE85800BB2AA0;
+			remoteInfo = MapScaleSample;
+		};
+		D45A06DF207DE85900BB2AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45A06B7207DE85800BB2AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45A06BE207DE85800BB2AA0;
+			remoteInfo = MapScaleSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F020BD3F0E80596752D3552 /* Pods-MapScaleSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapScaleSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B9ACD8D92618BE8A9DDDAA /* Pods-MapScaleSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapScaleSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample.release.xcconfig"; sourceTree = "<group>"; };
+		D45A06BF207DE85800BB2AA0 /* MapScaleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapScaleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45A06C2207DE85800BB2AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45A06C7207DE85800BB2AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45A06C9207DE85900BB2AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45A06CC207DE85900BB2AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45A06CE207DE85900BB2AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45A06D3207DE85900BB2AA0 /* MapScaleSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapScaleSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45A06D7207DE85900BB2AA0 /* MapScaleSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScaleSampleTests.swift; sourceTree = "<group>"; };
+		D45A06D9207DE85900BB2AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45A06DE207DE85900BB2AA0 /* MapScaleSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapScaleSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45A06E2207DE85900BB2AA0 /* MapScaleSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScaleSampleUITests.swift; sourceTree = "<group>"; };
+		D45A06E4207DE85900BB2AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45A06F0207DE97E00BB2AA0 /* MapScaleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScaleListViewController.swift; sourceTree = "<group>"; };
+		D45A06F1207DE97E00BB2AA0 /* MapScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScaleViewController.swift; sourceTree = "<group>"; };
+		FBA4E8835FDA4E248BB0FE64 /* Pods_MapScaleSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapScaleSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45A06BC207DE85800BB2AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463B0E29998A0B35C85CC9DA /* Pods_MapScaleSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45A06D0207DE85900BB2AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45A06DB207DE85900BB2AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813AED938CA28DBC25A237AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F020BD3F0E80596752D3552 /* Pods-MapScaleSample.debug.xcconfig */,
+				C4B9ACD8D92618BE8A9DDDAA /* Pods-MapScaleSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B053A00D2CC44152806094A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA4E8835FDA4E248BB0FE64 /* Pods_MapScaleSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45A06B6207DE85800BB2AA0 = {
+			isa = PBXGroup;
+			children = (
+				D45A06C1207DE85800BB2AA0 /* MapScaleSample */,
+				D45A06D6207DE85900BB2AA0 /* MapScaleSampleTests */,
+				D45A06E1207DE85900BB2AA0 /* MapScaleSampleUITests */,
+				D45A06C0207DE85800BB2AA0 /* Products */,
+				813AED938CA28DBC25A237AA /* Pods */,
+				B053A00D2CC44152806094A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D45A06C0207DE85800BB2AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45A06BF207DE85800BB2AA0 /* MapScaleSample.app */,
+				D45A06D3207DE85900BB2AA0 /* MapScaleSampleTests.xctest */,
+				D45A06DE207DE85900BB2AA0 /* MapScaleSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45A06C1207DE85800BB2AA0 /* MapScaleSample */ = {
+			isa = PBXGroup;
+			children = (
+				D45A06C2207DE85800BB2AA0 /* AppDelegate.swift */,
+				D45A06F0207DE97E00BB2AA0 /* MapScaleListViewController.swift */,
+				D45A06F1207DE97E00BB2AA0 /* MapScaleViewController.swift */,
+				D45A06C6207DE85800BB2AA0 /* Main.storyboard */,
+				D45A06C9207DE85900BB2AA0 /* Assets.xcassets */,
+				D45A06CB207DE85900BB2AA0 /* LaunchScreen.storyboard */,
+				D45A06CE207DE85900BB2AA0 /* Info.plist */,
+			);
+			path = MapScaleSample;
+			sourceTree = "<group>";
+		};
+		D45A06D6207DE85900BB2AA0 /* MapScaleSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45A06D7207DE85900BB2AA0 /* MapScaleSampleTests.swift */,
+				D45A06D9207DE85900BB2AA0 /* Info.plist */,
+			);
+			path = MapScaleSampleTests;
+			sourceTree = "<group>";
+		};
+		D45A06E1207DE85900BB2AA0 /* MapScaleSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D45A06E2207DE85900BB2AA0 /* MapScaleSampleUITests.swift */,
+				D45A06E4207DE85900BB2AA0 /* Info.plist */,
+			);
+			path = MapScaleSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45A06BE207DE85800BB2AA0 /* MapScaleSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45A06E7207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSample" */;
+			buildPhases = (
+				4E9FA43CEA2453E4682B7E2B /* [CP] Check Pods Manifest.lock */,
+				D45A06BB207DE85800BB2AA0 /* Sources */,
+				D45A06BC207DE85800BB2AA0 /* Frameworks */,
+				D45A06BD207DE85800BB2AA0 /* Resources */,
+				BC95CA247D461BCB30CB989A /* [CP] Embed Pods Frameworks */,
+				21BD6909082C989F82097FF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapScaleSample;
+			productName = MapScaleSample;
+			productReference = D45A06BF207DE85800BB2AA0 /* MapScaleSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D45A06D2207DE85900BB2AA0 /* MapScaleSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45A06EA207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSampleTests" */;
+			buildPhases = (
+				D45A06CF207DE85900BB2AA0 /* Sources */,
+				D45A06D0207DE85900BB2AA0 /* Frameworks */,
+				D45A06D1207DE85900BB2AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45A06D5207DE85900BB2AA0 /* PBXTargetDependency */,
+			);
+			name = MapScaleSampleTests;
+			productName = MapScaleSampleTests;
+			productReference = D45A06D3207DE85900BB2AA0 /* MapScaleSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D45A06DD207DE85900BB2AA0 /* MapScaleSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45A06ED207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSampleUITests" */;
+			buildPhases = (
+				D45A06DA207DE85900BB2AA0 /* Sources */,
+				D45A06DB207DE85900BB2AA0 /* Frameworks */,
+				D45A06DC207DE85900BB2AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45A06E0207DE85900BB2AA0 /* PBXTargetDependency */,
+			);
+			name = MapScaleSampleUITests;
+			productName = MapScaleSampleUITests;
+			productReference = D45A06DE207DE85900BB2AA0 /* MapScaleSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45A06B7207DE85800BB2AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = fozoglu;
+				TargetAttributes = {
+					D45A06BE207DE85800BB2AA0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D45A06D2207DE85900BB2AA0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D45A06BE207DE85800BB2AA0;
+					};
+					D45A06DD207DE85900BB2AA0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D45A06BE207DE85800BB2AA0;
+					};
+				};
+			};
+			buildConfigurationList = D45A06BA207DE85800BB2AA0 /* Build configuration list for PBXProject "MapScaleSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45A06B6207DE85800BB2AA0;
+			productRefGroup = D45A06C0207DE85800BB2AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45A06BE207DE85800BB2AA0 /* MapScaleSample */,
+				D45A06D2207DE85900BB2AA0 /* MapScaleSampleTests */,
+				D45A06DD207DE85900BB2AA0 /* MapScaleSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45A06BD207DE85800BB2AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45A06CD207DE85900BB2AA0 /* LaunchScreen.storyboard in Resources */,
+				D45A06CA207DE85900BB2AA0 /* Assets.xcassets in Resources */,
+				D45A06C8207DE85800BB2AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45A06D1207DE85900BB2AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45A06DC207DE85900BB2AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21BD6909082C989F82097FF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9FA43CEA2453E4682B7E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapScaleSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC95CA247D461BCB30CB989A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample-frameworks.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45A06BB207DE85800BB2AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45A06F3207DE97E00BB2AA0 /* MapScaleViewController.swift in Sources */,
+				D45A06C3207DE85800BB2AA0 /* AppDelegate.swift in Sources */,
+				D45A06F2207DE97E00BB2AA0 /* MapScaleListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45A06CF207DE85900BB2AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45A06D8207DE85900BB2AA0 /* MapScaleSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45A06DA207DE85900BB2AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45A06E3207DE85900BB2AA0 /* MapScaleSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45A06D5207DE85900BB2AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45A06BE207DE85800BB2AA0 /* MapScaleSample */;
+			targetProxy = D45A06D4207DE85900BB2AA0 /* PBXContainerItemProxy */;
+		};
+		D45A06E0207DE85900BB2AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45A06BE207DE85800BB2AA0 /* MapScaleSample */;
+			targetProxy = D45A06DF207DE85900BB2AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45A06C6207DE85800BB2AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45A06C7207DE85800BB2AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45A06CB207DE85900BB2AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45A06CC207DE85900BB2AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45A06E5207DE85900BB2AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D45A06E6207DE85900BB2AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45A06E8207DE85900BB2AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F020BD3F0E80596752D3552 /* Pods-MapScaleSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapScaleSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45A06E9207DE85900BB2AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B9ACD8D92618BE8A9DDDAA /* Pods-MapScaleSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapScaleSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D45A06EB207DE85900BB2AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapScaleSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapScaleSample.app/MapScaleSample";
+			};
+			name = Debug;
+		};
+		D45A06EC207DE85900BB2AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapScaleSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapScaleSample.app/MapScaleSample";
+			};
+			name = Release;
+		};
+		D45A06EE207DE85900BB2AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapScaleSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapScaleSample;
+			};
+			name = Debug;
+		};
+		D45A06EF207DE85900BB2AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapScaleSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapScaleSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45A06BA207DE85800BB2AA0 /* Build configuration list for PBXProject "MapScaleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45A06E5207DE85900BB2AA0 /* Debug */,
+				D45A06E6207DE85900BB2AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45A06E7207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45A06E8207DE85900BB2AA0 /* Debug */,
+				D45A06E9207DE85900BB2AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45A06EA207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45A06EB207DE85900BB2AA0 /* Debug */,
+				D45A06EC207DE85900BB2AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45A06ED207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45A06EE207DE85900BB2AA0 /* Debug */,
+				D45A06EF207DE85900BB2AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45A06B7207DE85800BB2AA0 /* Project object */;
+}

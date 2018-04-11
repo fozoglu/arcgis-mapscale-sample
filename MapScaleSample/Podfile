@@ -1,0 +1,6 @@
+platform :ios, '10.3'
+
+target 'MapScaleSample' do
+  use_frameworks!
+  pod 'ArcGIS-Runtime-SDK-iOS'
+end
