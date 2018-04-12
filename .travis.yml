@@ -3,8 +3,7 @@ language: swift
 osx_image: xcode9.1
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
-- pod repo update > /dev/null
-- pod update
+- pod repo update
 - pod install --project-directory=MapScaleSample
 
 
