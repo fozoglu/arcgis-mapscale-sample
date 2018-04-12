@@ -1,4 +1,8 @@
 # file: .travis.yml
 language: swift
 osx_image: xcode9.1
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
+- pod install --project-directory=MapScaleSample
+
 script: xcodebuild -workspace MapScaleSample/MapScaleSample.xcworkspace -scheme MapScaleSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
