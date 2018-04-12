@@ -1,5 +1,5 @@
 # Show map scale
-[![Build Status](https://travis-ci.org/fozoglu/arcgis-mapscale-sample.svg?branch=master)](https://travis-ci.org/fozoglu/arcgis-mapscale-sample)[![license](https://img.shields.io/github/license/fozoglu/arcgis-mapscale-sample.svg)](https://github.com/fozoglu/ChangeAppIcon/blob/master/LICENSE.txt) ![](https://img.shields.io/badge/platform-iOS-red.svg) ![Swift 4.x](https://img.shields.io/badge/Swift-4.x-blue.svg)
+[![Build Status](https://travis-ci.org/fozoglu/arcgis-mapscale-sample.svg?branch=master)](https://travis-ci.org/fozoglu/arcgis-mapscale-sample)[![license](https://img.shields.io/github/license/fozoglu/arcgis-mapscale-sample.svg)](https://github.com/fozoglu/arcgis-mapscale-sample/blob/master/LICENSE.txt) ![](https://img.shields.io/badge/platform-iOS-red.svg) ![Swift 4.x](https://img.shields.io/badge/Swift-4.x-blue.svg)
 
 This sample demonstrates how to show a map scale in the basemap
 
