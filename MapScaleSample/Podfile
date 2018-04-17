@@ -4,3 +4,8 @@ target 'MapScaleSample' do
   use_frameworks!
   pod 'ArcGIS-Runtime-SDK-iOS'
 end
+
+target 'MapScaleSampleTests' do
+    use_frameworks!
+    pod 'ArcGIS-Runtime-SDK-iOS'
+end

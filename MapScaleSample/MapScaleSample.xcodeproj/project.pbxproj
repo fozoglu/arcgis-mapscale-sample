@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		463B0E29998A0B35C85CC9DA /* Pods_MapScaleSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA4E8835FDA4E248BB0FE64 /* Pods_MapScaleSample.framework */; };
+		594CEB6D8A676468927D3DE1 /* Pods_MapScaleSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F538848A980420E72FCB2CFF /* Pods_MapScaleSampleTests.framework */; };
 		D45A06C3207DE85800BB2AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A06C2207DE85800BB2AA0 /* AppDelegate.swift */; };
 		D45A06C8207DE85800BB2AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45A06C6207DE85800BB2AA0 /* Main.storyboard */; };
 		D45A06CA207DE85900BB2AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45A06C9207DE85900BB2AA0 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3F020BD3F0E80596752D3552 /* Pods-MapScaleSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapScaleSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample.debug.xcconfig"; sourceTree = "<group>"; };
+		6D12C44AA0A6A200722383F9 /* Pods-MapScaleSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapScaleSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapScaleSampleTests/Pods-MapScaleSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4B9ACD8D92618BE8A9DDDAA /* Pods-MapScaleSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapScaleSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample.release.xcconfig"; sourceTree = "<group>"; };
 		D45A06BF207DE85800BB2AA0 /* MapScaleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapScaleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45A06C2207DE85800BB2AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		D45A06E4207DE85900BB2AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45A06F0207DE97E00BB2AA0 /* MapScaleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScaleListViewController.swift; sourceTree = "<group>"; };
 		D45A06F1207DE97E00BB2AA0 /* MapScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScaleViewController.swift; sourceTree = "<group>"; };
+		E7B9E8A521412A506BA974BA /* Pods-MapScaleSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapScaleSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapScaleSampleTests/Pods-MapScaleSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F538848A980420E72FCB2CFF /* Pods_MapScaleSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapScaleSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA4E8835FDA4E248BB0FE64 /* Pods_MapScaleSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapScaleSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594CEB6D8A676468927D3DE1 /* Pods_MapScaleSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,8 @@
 			children = (
 				3F020BD3F0E80596752D3552 /* Pods-MapScaleSample.debug.xcconfig */,
 				C4B9ACD8D92618BE8A9DDDAA /* Pods-MapScaleSample.release.xcconfig */,
+				6D12C44AA0A6A200722383F9 /* Pods-MapScaleSampleTests.debug.xcconfig */,
+				E7B9E8A521412A506BA974BA /* Pods-MapScaleSampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -94,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				FBA4E8835FDA4E248BB0FE64 /* Pods_MapScaleSample.framework */,
+				F538848A980420E72FCB2CFF /* Pods_MapScaleSampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D45A06EA207DE85900BB2AA0 /* Build configuration list for PBXNativeTarget "MapScaleSampleTests" */;
 			buildPhases = (
+				71F3B17EF991F3FF0B387DD1 /* [CP] Check Pods Manifest.lock */,
 				D45A06CF207DE85900BB2AA0 /* Sources */,
 				D45A06D0207DE85900BB2AA0 /* Frameworks */,
 				D45A06D1207DE85900BB2AA0 /* Resources */,
+				C6B57A5967BAA19299DBB607 /* [CP] Embed Pods Frameworks */,
+				8DBBAC563DD3541BE2826B85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,6 +329,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		71F3B17EF991F3FF0B387DD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapScaleSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBBAC563DD3541BE2826B85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSampleTests/Pods-MapScaleSampleTests-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSampleTests/Pods-MapScaleSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC95CA247D461BCB30CB989A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,6 +383,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSample/Pods-MapScaleSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B57A5967BAA19299DBB607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSampleTests/Pods-MapScaleSampleTests-frameworks.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapScaleSampleTests/Pods-MapScaleSampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,10 +591,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapScaleSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -543,10 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapScaleSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -556,16 +617,13 @@
 		};
 		D45A06EB207DE85900BB2AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D12C44AA0A6A200722383F9 /* Pods-MapScaleSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapScaleSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -576,16 +634,13 @@
 		};
 		D45A06EC207DE85900BB2AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B9E8A521412A506BA974BA /* Pods-MapScaleSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapScaleSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -600,11 +655,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapScaleSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -619,11 +670,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MapScaleSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fozoglu.MapScaleSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

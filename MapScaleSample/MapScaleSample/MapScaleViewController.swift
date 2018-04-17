@@ -39,8 +39,9 @@ class MapScaleViewController: UIViewController, MapScaleListVCDelegate, UIAdapti
         self.mapView.addGestureRecognizer(pinch)
         
         //set first extent to the map view
-        self.mapView.setViewpointCenter(AGSPoint(x: -117.1618385, y: 32.7065281 , spatialReference: AGSSpatialReference.wgs84()), scale: 25000, completion: nil)
-        
+        self.mapView.setViewpointCenter(AGSPoint(x: -117.1618385, y: 32.7065281 , spatialReference: AGSSpatialReference.wgs84()), scale: 25000, completion: {(sucess) in
+            print(self.mapView.mapScale)
+            })
     }
     
     //User pinched on the map

@@ -7,30 +7,38 @@
 //
 
 import XCTest
+import ArcGIS
 @testable import MapScaleSample
 
 class MapScaleSampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+        
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testMapScale(){
+        
+        guard let vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? MapScaleViewController else{
+                XCTFail("Could not instatiate VC from Main Storyboard")
+                return
         }
+        vc.loadViewIfNeeded()
+        guard let mapView = vc.mapView else {
+            XCTFail("ViewController should have outlet set for mapView")
+            return
+        }
+        //let map = AGSMap(basemap: AGSBasemap.streets())
+        //mapView.map = map
+        mapView.setViewpointCenter(AGSPoint(x: -117.1618385, y: 32.7065281 , spatialReference: AGSSpatialReference.wgs84()), scale: 25000, completion: {(sucess) in
+            print(mapView.mapScale)
+            let mapViewScaleValue = mapView.mapScale
+            XCTAssertEqual(mapViewScaleValue, 25000, "MapView should load from the storyboard with correct scale")
+        })
     }
-    
 }
