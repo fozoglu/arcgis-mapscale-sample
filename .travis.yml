@@ -9,5 +9,5 @@ before_install:
 
 script: 
 - xcodebuild -workspace MapScaleSample/MapScaleSample.xcworkspace -scheme MapScaleSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-- xcodebuild test -workspace MapScaleSample/MapScaleSample.xcworkspace -scheme MapScaleSampleTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xcodebuild test -workspace MapScaleSample/MapScaleSample.xcworkspace -scheme MapScaleSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
